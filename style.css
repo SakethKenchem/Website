@@ -1,0 +1,211 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Russo One', sans-serif;
+    background-color: #d5dce4;
+}
+.navbar {
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: background-color 0.25s ease-in-out;
+}
+.navbar.scrolled{
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo-container {
+    align-items: center;
+}
+
+.navbar .logo-container a {
+    margin-right: 10px; /* Adjust the spacing between logos as needed */
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.header {
+    color: black;
+    text-align: center;
+    padding: 100px 0;
+    margin-right: 10px;
+    margin-bottom: -80px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.subtext {
+    font-size: 24px;
+    margin-top: 10px;
+    color: black;
+}
+.section {
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 2px solid skyblue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #02458d;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+}
+.project {
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.project h3 {
+    font-size: 24px;
+    margin: 0;
+}
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    padding: auto;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.my_pic{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+.image-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px; /* Adjust the spacing as needed */
+}
+#name {
+    font-size: 48px;
+    margin: 0;
+}
+.subtext {
+    font-size: 24px;
+    margin: 0;
+    color: #444;
+}
+.image-container {
+    display: inline-block;
+}
+.my_pic {
+    max-width: 200px; /* Set a suitable width for your image */
+    height: auto;
+    border-radius: 50%; /* Optional, to round the image */
+}
+.header-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-container {
+    margin-right: 20px; /* Adjust the spacing between text and image as needed */
+}
+#contact{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+}
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.contact-icons li {
+    margin: 0 10px; /* Adjust the spacing between the icons as needed */
+}
+
+.icon {
+    max-width: 30px;
+    height: auto;
+}
+.skills-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 0 10px; /* Adjust the spacing between the icons as needed */
+}
+
+.skill-icon {
+    max-width: 60px; /* Adjust the width as needed */
+    height: auto;
+}
+.resume_button:hover{
+    background-color: #007bff;
+    color: white;
+}
+.view_on_github:hover{
+    background-color: #007bff;
+    color: white;
+}
+/* Add this CSS to your style.css file */
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    text-decoration: none;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: 'Russo One';
+}
+

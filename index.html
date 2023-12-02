@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saketh Kenchem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li class="logo-container">
+                <a href="https://github.com/SakethKenchem" target="_blank">
+                    <img src="github.png" class="icon" alt="GitHub">
+                </a>
+                <a href="mailto:saketh.kenchem@strathmore.edu">
+                    <img src="gmail.png" class="icon" alt="Email">
+                </a>
+                <a href="https://www.linkedin.com/in/sakethkenchem/" target="_blank">
+                    <img src="linkedin.png" class="icon" alt="LinkedIn">
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <header class="header">
+        <div class="header-content" >
+            <div class="text-container" style="margin-bottom: 10px;">
+                <h1 class="h1" id="name">Hi, I'm Saketh</h1>
+                <p class="subtext">A Business Information Technology Student. <br>
+                Student at Strathmore University</p>
+            </div>
+            <span class="image-container">
+                <img src="my pic.jpg" alt="My Picture" class="my_pic">
+            </span>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my personal website. I'm a passionate Business Information Technology student with a love for coding and innovation. Here, you can explore my projects and learn more about my interests and experiences.</p>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2>Education</h2>
+            <h3>Strathmore University</h3>
+            <ul style="text-align: center, justify;">
+                <li><p style="font-size: 15px;">Bachelor of Business Information Technology</p></li>
+                <li ><p style="font-size: 13px;">April 2024 - June 2026 </p></li>
+            </ul>
+            <hr>
+            <ul style="text-align: center, justify;;">
+                <li><p style="font-size: 15px;">Dilpoma in Business Information Technology</p></li>
+                <li ><p style="font-size: 13px;">Sept 2022 - Oct 2023</p></li>
+            </ul>
+        <!--view cv-->
+            <a href="https://drive.google.com/file/d/1gww7IFDeNMVW9yiZeZ479LPgMa9Ym718/view?usp=sharing" class="resume_button" target="_blank" style="text-align: justify; border: 1px solid; padding: 5px; border-radius: 3px;">View Resume</a>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul class="skills-list">
+                <li>
+                    <img src="html css.png" alt="Web Development" class="skill-icon">
+                </li>
+                <li>
+                    <img src="java.png" alt="Java" class="skill-icon">
+                </li>
+                <li>
+                    <img src="python.png" alt="Python" class="skill-icon">
+                </li>
+                <li>
+                    <img src="js.png" alt="JavaScript" class="skill-icon">
+                </li>
+                <li>
+                    <img src="mysql.png" alt="SQL" class="skill-icon">
+                </li>
+                <li>
+                    <img src="php.png" alt="PHP" class="skill-icon">
+                </li>
+                <li>
+                    <img src="c.png" alt="c" class="skill-icon">
+                </li>
+                <li>
+                    <img src="c++.png" alt="c++" class="skill-icon">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Experience</h2>
+            <p>Here are some of my work experience:</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Here are some of my recent projects:</p>
+            <div class="project">
+                <h3>Nairobi Reporting Portal</h3>
+                <img src="Nairobi Reporting Portal.png" alt="Nairobi Reporting Portal">
+                <p>
+                    This system is a platform for the residents of Nairobi to report any issues they may have to the county government. The system is also a platform for the county government to communicate with the residents of Nairobi.<br>
+                    It was developed using HTML, CSS, JavaScript, PHP, and MySQL. It was developed as a Year 1 project.
+                </p>
+                <p>July 2023 - Present</p>
+                <!--button to GitHub-->
+                <a href="https://github.com/SakethKenchem/Nairobi-Reporting-Portal" class="view_on_github" target="_blank" style="border: 1px solid; padding: 5px;">View on GitHub</a>
+            </div>
+            <div class="project">
+                <h3>Personal Website</h3>
+                <img src="personal website.png" alt="Personal Website">
+                <p>
+                    This is my personal website. It was developed using HTML, CSS, and JavaScript. It documents my education, skills, interests,experience, and projects.<br>
+                </p>
+                <p>November 2023 - Present</p>
+                <!--button to GitHub-->
+                <a href="https://github.com/SakethKenchem/Website" class="view_on_github" target="_blank" style="border: 1px solid; padding: 5px;">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <a id="scrollToTop" class="scroll-to-top" style="text-decoration: none;">Top</a>
+
+                    
+    <script src="script.js"></script>
+    <script>
+        window.addEventListener("scroll", function() {
+            var navbar = document.getElementById("navbar");
+            if (window.scrollY > 0) {
+                navbar.classList.add("scrolled");
+            } else {
+                navbar.classList.remove("scrolled");
+            }
+        });
+    </script>
+    
+    
+</body>
+</html>
